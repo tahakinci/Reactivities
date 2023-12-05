@@ -35,7 +35,7 @@ export const ActivityList = ({
                   onClick={() => selectActivity(activity.id)}
                 />
                 <Button
-                  floated="right  "
+                  floated="right"
                   content="Delete"
                   color="red"
                   onClick={() => deleteActivity(activity.id)}
